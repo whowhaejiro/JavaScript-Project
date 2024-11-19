@@ -28,3 +28,22 @@ h1 {
 #user-list li:hover {
     background: #e7f1ff;
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#show-data, #hide-data {
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 7px;
+    border: none;
+    outline: none;
+    color: #007bff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+}

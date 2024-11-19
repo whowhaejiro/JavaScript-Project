@@ -20,4 +20,12 @@ async function displayUserData() {
     }
 }
 
-displayUserData();
+//function to hide Data in HTML
+function hideUserData() {
+    const userList = document.getElementById('user-list');
+    userList.innerHTML = '';
+}
+
+//Adds Event Listeners to buttons
+document.getElementById('show-data').addEventListener('click', displayUserData); //displays the data on the screen
+document.getElementById('hide-data').addEventListener('click', hideUserData); //hides the data
